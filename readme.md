@@ -1,5 +1,5 @@
 Небольшой веб-сервис на Python
-##чо внутри
+## чо внутри
  `app.py` — само Flask-приложение с двумя маршрутами (`/` и `/health`).
 `requirements.txt` — (`Flask`, `gunicorn`).
 `Dockerfile` — сборка образа на базе `python:3.11-slim`, запуск через Gunicorn от непривилегированного пользователя `appuser`
